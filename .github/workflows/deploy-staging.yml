@@ -1,9 +1,0 @@
-name: Stage the app
-
-on: 
-  pull_request:
-    types: [staging-workflow]
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
